@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+__kitty_complete() {
+  # load kitty completions if in kitty
+  if test "$TERM" = "xterm-kitty"; then
+    if (( $+commands[kitty] )); then
+      eval "$(kitty + complete setup zsh)"
+    fi
+  fi
+}
+
