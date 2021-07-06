@@ -19,7 +19,7 @@ Install it with your favourite zsh package manager, or clone it directly to your
 array in your `.zshrc` file:
 
 ```zsh
-plugins=(... zsh-kitty/)
+plugins=(... zsh-kitty)
 ```
 
 ## Usage
